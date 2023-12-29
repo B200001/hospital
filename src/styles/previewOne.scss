@@ -1,0 +1,44 @@
+@import url("main.scss");
+.preview-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 75vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.data-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+button{
+    // width: 100%;
+    width: 20vh;
+}
+.preview-two-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh;
+}
+button{
+    width: 20vh;
+}

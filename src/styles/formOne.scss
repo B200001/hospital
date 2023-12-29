@@ -1,0 +1,86 @@
+// @import "main.scss";
+
+
+// .label__div__radio{
+//     display: flex;
+//     margin: 2px;
+// }
+// .label__div__notRadio{
+//     display: flex;
+//     padding: 3px;
+//     font: 400 1.2rem $text1;
+//     // justify-content: space-between;
+// }
+// .formOne{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     text-align: left;
+//     margin: 10vh 30vh;
+// }
+// .radio__div{
+//     display: flex;
+//     flex-direction: row;
+// }
+/* formOne.scss */
+
+.formOne {
+    max-width: 600px;
+    // margin: 10vh auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 180vh;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .label__div__notRadio,
+  .label__div__radio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+    input[type="radio"] {
+      margin-top: 5px;
+    }
+  }
+  
+  .radio__div {
+    display: flex;
+    align-items: center;
+  
+    input[type="radio"] {
+      margin: 0;
+      transform: scale(0.8); /* Adjust the scale value as needed */
+    }
+  }
+  .select_dropDown{
+    height: 5vh;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Add more styles as needed */
+  

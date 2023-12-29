@@ -1,0 +1,12 @@
+.header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+  }

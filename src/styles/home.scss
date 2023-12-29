@@ -1,0 +1,23 @@
+@import "main.scss";
+
+*{
+    font-family: $text1;
+}
+.main{
+    align-items: center;
+}
+Link{
+    margin: 10px;
+}
+input{
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    margin-right: 2rem;
+}
+.entryButton{
+    width: 30rem;
+}
