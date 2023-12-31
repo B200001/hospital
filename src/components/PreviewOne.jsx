@@ -55,7 +55,7 @@ const PreviewOne = () => {
                 <Link to={`/${FormTwoComponent}/${userId}`}>
                     <button className="preview-two-button">Go to FormTwo</button>
                 </Link>
-                <Link to={'/'}>
+                <Link to={'/Hospital/'}>
                     <button className="preview-two-button">Exit</button>
                 </Link>
                 

@@ -247,6 +247,8 @@ const Preview = () => {
     };
   }, [userId]);
 
+  const formTwoLink = formData.formTwoData ? `/formTwoView/${userId}` : '/formTwo/' + userId;
+
   return (
     <div className="preview-container">
       <h1>Data Preview for User: {userId}</h1>
@@ -262,7 +264,7 @@ const Preview = () => {
       </div>
       {/* Buttons */}
       <div className="preview-two-buttons">
-        <Link to={`/formTwo/${userId}`}>
+        <Link to={formTwoLink}>
           <button className="preview-two-button">Go to FormTwo</button>
         </Link>
         <Link to={'/'}>

@@ -1,9 +1,11 @@
 @import url("main.scss");
 .preview-container {
-    max-width: 800px;
-    margin: auto;
+    position: relative;
+    width: 70vh;
+    margin-top: 100vh;
     padding: 20px;
-    margin-top: 75vh;
+    // margin-top: 90vh;
+    // top: 45vh;
 }
 
 h1 {

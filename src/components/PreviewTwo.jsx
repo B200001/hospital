@@ -90,7 +90,7 @@ const PreviewTwo = () => {
         <Link to={`/formOneView/${userId}`}>
           <button className="preview-two-button">Form 1</button>
         </Link>
-        <Link to={'/'}>
+        <Link to={'/Hospital/'}>
           <button className="preview-two-button">Exit</button>
         </Link>
         {/* <Link to={`/newEntry/${userId}`}>
